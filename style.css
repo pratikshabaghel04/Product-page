@@ -1,0 +1,111 @@
+ /* *{
+    margin: 0;
+    padding: 0;
+}  */
+.navigation{
+    display: inline;
+  
+}
+ .brand{
+    display: inline;
+    font-weight: bolder; 
+    font-size: 30px;
+    text-align: left; 
+    margin-right: 40%;
+
+ }
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding:  0.5rem; 
+    font-weight: bold; 
+    font-size: larger;
+    /* margin-left: 5rem; */
+    
+}
+.navigation .nav-pills{
+   text-align: center;  
+    margin-right: 10%;
+}
+.product{
+    margin-top: 5% ;
+}
+
+ .product .ow {
+   font-size: larger;
+   margin-left: 10% ;
+   margin-right: 40%;
+   color: rgba(89, 87, 87, 0.983);
+ }
+
+ .product .main{
+   font-size: xxx-large;
+    margin:auto 10%;
+ }
+
+ .btn{
+    margin-left: 10%;
+    padding: 10px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 0.3rem; 
+    transition: all 0.5s;
+   cursor: pointer;
+
+ }
+ .btn span{
+    position: relative;
+    transition: 1s;
+    cursor: pointer;
+ }
+
+ .btn span:after {
+     content: '\00bb';
+     position: absolute; 
+     opacity: 0; 
+     top: 0; 
+     right: -20px; 
+     transition: 0.5s; 
+  }
+ .btn:hover span::after{
+     opacity: 1;
+     right: 0;
+ }
+
+ .btn:hover span {
+    padding-right: 25px;
+  }
+
+.product .image{
+   float: right; 
+   margin-right: 10%;
+   width: 500px;
+}
+
+ .footer {
+    margin:  10% ;
+    margin-top: 10%;
+}
+
+ .footer .rating{
+    margin: auto ;
+} 
+
+.footer .dtl{
+    text-align: left;
+    margin: auto; 
+    margin-left: 75%; 
+    color: grey;
+    
+}
+
+
